@@ -46,17 +46,11 @@
   "engines": {
     "node": ">=14"
   },
-  "keywords": [
-    "webpack",
-    "boilerplate",
-    "template",
-    "setup"
-  ],
   "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git@github.com:WeAreAthlon/frontend-webpack-boilerplate.git"
+    "url": "git@github.com:FeliOdras/c-base-crewpage.git"
   },
   "scripts": {
     "build": "webpack --config configuration/webpack.dev.config.js --mode=development",
