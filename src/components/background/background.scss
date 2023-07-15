@@ -12,7 +12,7 @@ body {
   position: fixed;
 }
 .cs__station {
-  background-image: url("./images/c-base_bg.png");
+  background-image: url("../../application/assets/images/c-base_bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   height: 100vh;
@@ -20,7 +20,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-size: 80%;
+  background-size: contain;
   z-index: 10;
 }
 .cs__body {
