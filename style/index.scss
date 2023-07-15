@@ -1,0 +1,33 @@
+body {
+  // background: #000;
+  // background-image: url("./images/c-base_bg.png");
+  // background-position: center center;
+  // background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+
+.cs__background {
+  z-index: 1;
+  position: fixed;
+}
+.cs__station {
+  background-image: url("./images/c-base_bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: 80%;
+  z-index: 10;
+}
+.cs__body {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  width: 100%;
+  color:#fff;
+  border: 1px solid #fff;
+  z-index: 20;
+}
