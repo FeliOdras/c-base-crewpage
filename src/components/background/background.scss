@@ -6,12 +6,14 @@ body {
   min-height: 100vh;
 }
 
-
-.cs__background {
+body {
+  position: relative;
+}
+.cs-background {
   z-index: 1;
   position: fixed;
 }
-.cs__station {
+.cs-station {
   background-image: url("../../application/assets/images/c-base_bg.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -23,9 +25,9 @@ body {
   background-size: contain;
   z-index: 10;
 }
-.cs__body {
+.cs-body {
   background: rgba(0,0,0,0.7);
-  position: absolute;
+  position: fixed;
   width: 100%;
   color:#fff;
   border: 1px solid #fff;
