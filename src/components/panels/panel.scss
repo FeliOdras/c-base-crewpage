@@ -1,0 +1,14 @@
+.cs-panel {
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  overflow: hidden;
+  color: #fff;
+
+  &.open {
+    height: auto;
+    width: 80%;
+    left: 10%;
+    bottom: 0;
+  }
+}

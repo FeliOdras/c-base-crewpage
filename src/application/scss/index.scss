@@ -1,20 +1,23 @@
 /* By Athlon Front-End Team */
 
 /* Core variables */
-@import '../../components/globals/vars';
+@use '../../components/globals/vars';
 
 /* CSS Reset */
-@import '../../components/globals/reset';
+@use '../../components/globals/reset';
 
 /* Fonts */
-@import '../../components/globals/fonts';
+@use '../../components/globals/fonts';
 
 /* Mixins, helpers and functions */
-@import '../../components/globals/mixins';
+@use '../../components/globals/mixins';
 
 /* Vendor */
 
 /* Components */
 
-@import '../../components/background/background';
+@use '../../components/background/background';
+@use '../../components/panels/panel.scss';
+@use '../../components/buttonlist/buttonlist.scss';
+
 
